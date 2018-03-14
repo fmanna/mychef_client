@@ -1,6 +1,6 @@
 name 'mychef_client'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Frank Manna'
+maintainer_email 'frank.manna@voxmedia.com'
 license 'All Rights Reserved'
 description 'Installs/Configures mychef_client'
 long_description 'Installs/Configures mychef_client'
@@ -18,3 +18,5 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/mychef_client'
+
+depends 'chef-client'
